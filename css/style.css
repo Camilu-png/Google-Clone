@@ -41,3 +41,56 @@ nav .nav-right-section .menu-icon{
 nav .nav-right-section img{
     border-radius: 50%;
 }
+main {
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 1.8%;
+}
+main .main-logo img{
+    height: 92px;
+    width: 272px;
+}
+main .main-input {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #c2c2c2;
+    border-color: #eeeeee;
+
+}
+main .main-input .search-icon{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+}
+main .main-input .micro-icon{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
