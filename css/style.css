@@ -67,8 +67,8 @@ main .main-input-container{
     align-items: center;
 }
 main .main-input input{
-    width: 85%;
-    height: 40px;
+    width: 86%;
+    height: 42px;
     border: none;
     outline: none;
 }
@@ -90,8 +90,8 @@ main .main-input .micro-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 main .main-buttons{
@@ -118,4 +118,66 @@ main .main-buttons button:hover{
     color: #222;
     background-color: #f8f8f8;
     cursor: pointer;
+}
+footer div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 1.1% auto;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+}
+
+footer .footer-pais{
+    height: 49%;
+    font-size: 14px;
+    border-bottom: 1px solid #dbdbdb;
+    color: #7a7a7a;
+    padding-left: 1.5%;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+footer ul{
+    margin: auto 10px;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+    margin-left: 4%;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul>li>a{
+    margin: 10px 15px;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+footer ul>li>a:hover{
+    text-decoration: underline;
+}
+.footer-sub-menu {
+    position: absolute;
+    display: none;
+    width: inherit;
+    right: 0.5%;
+    bottom: 49%;
+}
+.footer-sub-menu li{
+    margin: 13% auto;
+}
+
+div li:hover ul {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #70757a;
 }
